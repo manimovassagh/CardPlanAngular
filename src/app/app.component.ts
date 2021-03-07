@@ -9,17 +9,17 @@ export class AppComponent {
   posts=[
     {title:'Neat Tree',
       imageURL:'assets/tree.jpeg',
-      useName:'nature',
+      userName:'nature',
       content:'I saw this neat tree today'
     },
     {title:'Snowy Mountain',
       imageURL:'assets/mountain.jpeg',
-      useName:'mountainLover',
+      userName:'mountainLover',
       content:'Here is a picture of a snowy mountain'
     },
     {title:'Mountain Biking',
       imageURL:'assets/biking.jpeg',
-      useName:'biking12222',
+      userName:'biking12222',
       content:'I did some biking today'
     }
   ]
