@@ -1,15 +1,15 @@
 <div class="card">
   <div class="card-image">
     <figure class="image is-4by3">
-      <img src="assets/images/tree.jpeg" alt="" />
+      <img [src]="imageURL" alt="" />
     </figure>
   </div>
 
   <div class="card-content">
     <div class="media-content">
       <p class="title is-3">{{title}}</p>
-      <p class="subtitle is-6">@nature</p>
+      <p class="subtitle is-6">{{userName}}</p>
     </div>
-    <div class="content">Saw this awesome tree during my hike today</div>
+    <div class="content">{{content}}</div>
   </div>
 </div>
